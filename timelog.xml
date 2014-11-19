@@ -1,0 +1,57 @@
+<!--
+Tidslog Laboration 1 1DV404 - Planering och förbättring
+
+Programmeringsspråk: Javascript
+
+Förberedande för labb  
+-->
+
+<excercise>
+    <stamp id="1" date="20141118" startTime="08:15" endTime="08:45"/>
+        <desc>Laboration Förberedande</desc>
+        <documentation>
+            <strategy>
+            Laboration 1 DV404 - Planering och förbättring.
+            För att erhålla struktur och ordning så har jag valt att genomföra 
+            planering med hjälp av dokumentet timelog.xml. 
+            För att en laboration ska vara komplett måste samtlig innehåll inneha ett värde. 
+            Tanken med att använda xml i boten för data är att jag på ett "enkelt" och strukturereat sätt 
+            ska kunna överföra data till exempelvis en html5 application eller kanske rentav ett layoutprogram 
+            likt Adobe InDesign.
+            </strategy>
+            <failure></failure>
+            <planningDeviation></planningDeviation>
+        </documentation>    
+</excercise>
+
+<collection>
+    <excercise>
+        <stamp id="1" date="20141118" startTime="08:45" endTime="09:00"/>
+        <stamp id="2" date="20141118" startTime="09:15" endTime="11:30"/>
+        <stamp id="3" date="20141118" startTime="12:30" endTime="14:30"/>
+        <stamp id="4" date="20141118" startTime="14:30" endTime="15:00"/>
+            <desc>Uppgift 1A</desc>
+            <documentation>
+                <strategy>Förberedelse gjord genom att läsa "labb-om" noggrant och att utefter analys försöka visuellt rita programmet då det för min del brukar innebära bättre struktur i arbete.</strategy>
+                <failure>Jag gjorde en uppskattad tidsåtgång på 60min som blev helt fel i detta projekt. Orsak var att jag inte tänkte på att ett klick på en submit-knapp innebär en reload av sidan. Där fastnade jag ganska länge utan att komma vidare.</failure>
+                <planningDeviation>Första timmen på dett lilla projetk var effektivt. Jag följde planen enligt min skiss och "programmet var funktionellt efter en timme. En avvikelse kan väl vara att jag tog till för mycket tid med css, vilket inte för programmet var nödvändigt.</planningDeviation>
+            </documentation>
+    </excercise>
+    <excercise>
+        <stamp id="1" date="20141118" startTime="16:45" endTime="17:15"/>
+        <stamp id="2" date="20141118" startTime="17:45" endTime="18:00"/>
+        <stamp id="3" date="20141118" startTime="20:00" endTime="22:00"/>
+        <stamp id="3" date="20141119" startTime="08:15" endTime=""/>
+            <desc>Uppgift 1B</desc>
+            <documentation>
+                <strategy></strategy>
+                <failure></failure>
+                <planningDeviation></planningDeviation>
+            </documentation>
+    </excercise>
+</collection>
+
+
+
+
+
