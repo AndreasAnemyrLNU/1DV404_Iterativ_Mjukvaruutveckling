@@ -24,9 +24,6 @@
         }
     }
     
-    alert(counter_a);
-    
-    
     document.querySelector("#a").innerHTML = counter_a;
     document.querySelector("#A").innerHTML = counter_A;  
     

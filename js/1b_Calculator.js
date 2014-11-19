@@ -1,5 +1,5 @@
 "use strict";
-
+  //******************************************************\\
  //Calculator Constructor**********************************\\
 //                                                          \\
 function Calculator(calcString){
@@ -19,8 +19,8 @@ function Calculator(calcString){
  //this.odd*******Nr of odd nrs in calcstring**************\\
 //                                                          \\
     this.odd = 0;
-    
 }
+
 
  //!START**************************************************\\
 //************************************* PROTOTYPE CALCULATOR\\
