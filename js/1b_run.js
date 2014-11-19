@@ -28,31 +28,7 @@ var run = {
                         calc.dynIncrProp('odd', 1);
                     } 
                 }
-            
-                // for( i ; i < length ; i++)
-                // {
-                    
-                //     for( i ; i < calc.dynGetProp('calcString').indexOf(" ", i) ; i++)
-                //     {
-                //         nr += calc.dynGetProp('calcString')[i];
-                //     }
                 
-                //     if(+nr === 0)
-                //     {
-                //         calc.dynIncrProp('zero', 1); 
-                //     }
-                //     else if(nr % 2 === 0)  
-                //     {
-                //         calc.dynIncrProp('even', 1);
-                //     }
-                //     else
-                //     {
-                //         calc.dynIncrProp('odd', 1);
-                //     } 
-                    
-                // nr = "";
-                // }
-        
         document.querySelector("#zero").innerHTML = calc.dynGetProp('zero');
         document.querySelector("#even").innerHTML = calc.dynGetProp('even');
         document.querySelector("#odd").innerHTML =  calc.dynGetProp('odd');
