@@ -1,80 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="css/main.css"?>
-<excercises>    
-    <excercise>
-        <stamp id="1" date="20141118" startTime="08:15" endTime="08:45"/>
-            <desc>Laboration Förberedande</desc>
-            <documentation>
-                <strategy>
-                Laboration 1 DV404 - Planering och förbättring. För att erhålla struktur och ordning så har jag valt att genomföra planering med hjälp av dokumentet timelog.xml. För att en laboration ska vara komplett måste samtlig innehåll inneha ett värde. Tanken med att använda xml i boten för data är att jag på ett "enkelt" och strukturereat sätt ska kunna överföra data till exempelvis en html5 application eller kanske rentav ett layoutprogram likt Adobe InDesign.
-                </strategy>
-                <failure></failure>
-                <planningDeviation></planningDeviation>
-            </documentation>    
-    </excercise>
-    <excercise>
-        <stamp id="1" date="20141118" startTime="08:45" endTime="09:00"/>
-        <stamp id="2" date="20141118" startTime="09:15" endTime="11:30"/>
-        <stamp id="3" date="20141118" startTime="12:30" endTime="14:30"/>
-        <stamp id="4" date="20141118" startTime="14:30" endTime="15:00"/>
-            <desc>Uppgift 1A</desc>
-            <documentation>
-                <strategy>Förberedelse gjord genom att läsa "labb-om" noggrant och att utefter analys försöka visuellt rita programmet då det för min del brukar innebära bättre struktur i arbete.</strategy>
-                <failure>Jag gjorde en uppskattad tidsåtgång på 60min som blev helt fel i detta projekt. Orsak var att jag inte tänkte på att ett klick på en submit-knapp innebär en reload av sidan. Där fastnade jag ganska länge utan att komma vidare.</failure>
-                <planningDeviation>Första timmen på dett lilla projetk var effektivt. Jag följde planen enligt min skiss och "programmet var funktionellt efter en timme. En avvikelse kan väl vara att jag tog till för mycket tid med css, vilket inte för programmet var nödvändigt.</planningDeviation>
-                <reflection></reflection>
-            </documentation>
-    </excercise>
-    <excercise>
-        <stamp id="1" date="20141118" startTime="16:45" endTime="17:15"/>
-        <stamp id="2" date="20141118" startTime="17:45" endTime="18:00"/>
-        <stamp id="3" date="20141118" startTime="20:00" endTime="22:00"/>
-        <stamp id="3" date="20141119" startTime="08:15" endTime="10:30"/>
-            <desc>Uppgift 1B</desc>
-            <documentation>
-                <strategy>Förberedelse genom att läsa labb-pm. Eftersom jag oo för denna labb hade jag svårt att sätta på pränt hur jag skulle rita upp programmet visuellt på papper. Strategin för detta blev helt enkelt att samtidig som kodandet sker försöka visuellt rita programmet i huvudet...</strategy>
-                <failure>Ett stort misstag som kunde undvikits var att jag valde att inte rita programmets logik. Jag jobbade på fel uppgift!</failure>
-                <planningDeviation>Min plan var att skriva programmet med oop i javscript. Tycker att jag lyckades följa planden. Däremot kändes den långt ifrån optimal om man ska vara maximalt produktiv/effektiv.</planningDeviation>
-                <reflection></reflection>
-            </documentation>
-    </excercise>
-    <excercise>
-        <stamp id="1" date="20141118" startTime="11:00" endTime="11:15">
-            <notes>Påbörjar arbete med att kopiera över gammal kod från 1b att utgå ifrån.</notes>
-        </stamp>
-        <stamp id="1" date="20141118" startTime="12:00" endTime="20:00">
-            <notes>Fortsätter att jobba med struktur av mappar. Det här var en mindre produktiv dag. Att sortera tal var svårt när man inte fick använda sig av arrayer så som vanligt är. Mestadels av tiden har inneburit att få ihop logiken i 1c_run.js</notes>
-        </stamp>
-            <desc>Uppgift 1C</desc>
-            <documentation>
-                <strategy>Program "NastStorst" möjliggör att utgå föregående labb (1b) eftersom programmets påminer om varandra. Startegin blir att "modda" befintlig kod och utöka koden.</strategy>
-                <failure>Återigen så har jag kört fast och gått runt som i ett ekorrhjul. Som vanligt brukar en paus till koden och nya krafter göra att man löser problemt. Logiken som krävdes för denna uppgiften krävde dock mer tankemöda än över en kopp kaffe. Slutligen kom lösningen efter att jag ritat och skissat koden med figurer på papper.</failure>
-                <planningDeviation>Egentligen inga avvikelser. Dock är tidsåtgången stor när man är ny på javascript. Jag gjorde som jag tänkt.</planningDeviation>
-
-            </documentation>
-    </excercise>
-    <reflection>Här skriver jag en reflektion för 1an:</reflection>
-    <excercise>
-        <stamp id="1" date="20141119" startTime="08:15" endTime="09:30">
-            <notes>Påbärjar Laboration 2. Då jag valt att logga i xml-format ordnar jag med en lämpliga css-filer för dessa. Xml är också validerat och verkar fungera.</notes>
-        </stamp>
-        <stamp id="2" date="20141119" startTime="09:30" endTime="">
-            <notes></notes>
-        </stamp>
-            <desc>Uppgift 2A</desc>
-            <documentation>
-            
-            </documentation>
-            <desc>Uppgift 2B</desc>
-            <documentation>
-            
-            </documentation>
-            <desc>Uppgift 2C</desc>
-            <documentation>
-            
-            </documentation>
-    </excercise>
+<excercises>
+    <collection>    
+        <excercise>
+            <stamp id="1" date="20141118" startTime="08:15" endTime="08:45">
+                <notes>Läst labb-pm för att förstå syftet med labbarna. En helhetsbild för de olika "uppgifterna"</notes>
+            </stamp>
+            <stamp id="2" date="20141119" startTime="13:15" endTime="15:15">
+                <notes>Implementerat en räknare (javascript) som räknar orden i elementet &lt;answer&gt; </notes>
+            </stamp>          
+                <desc>Laboration Förberedande</desc>
+                <documentation>
+                    <strategy>
+                    Laboration 1 DV404 - Planering och förbättring. För att erhålla struktur och ordning så har jag valt att genomföra planering med hjälp av dokumentet timelog.xml. För att en laboration ska vara komplett måste samtlig innehåll inneha ett värde. Tanken med att använda xml i boten för data är att jag på ett "enkelt" och strukturereat sätt ska kunna överföra data till exempelvis en html5 application eller kanske rentav ett layoutprogram likt Adobe InDesign.
+                    </strategy>
+                    <failure></failure>
+                    <planningDeviation></planningDeviation>
+                </documentation>    
+        </excercise>
+    </collection>
+<!--Excercise 1 - START -->
+    <collection>
+        <excercise>
+            <stamp id="1" date="20141118" startTime="08:45" endTime="09:00"/>
+            <stamp id="2" date="20141118" startTime="09:15" endTime="11:30"/>
+            <stamp id="3" date="20141118" startTime="12:30" endTime="14:30"/>
+            <stamp id="4" date="20141118" startTime="14:30" endTime="15:00"/>
+                <desc>Uppgift 1A</desc>
+                <documentation>
+                    <strategy>Förberedelse gjord genom att läsa "labb-om" noggrant och att utefter analys försöka visuellt rita programmet då det för min del brukar innebära bättre struktur i arbete.</strategy>
+                    <failure>Jag gjorde en uppskattad tidsåtgång på 60min som blev helt fel i detta projekt. Orsak var att jag inte tänkte på att ett klick på en submit-knapp innebär en reload av sidan. Där fastnade jag ganska länge utan att komma vidare.</failure>
+                    <planningDeviation>Första timmen på dett lilla projetk var effektivt. Jag följde planen enligt min skiss och "programmet var funktionellt efter en timme. En avvikelse kan väl vara att jag tog till för mycket tid med css, vilket inte för programmet var nödvändigt.</planningDeviation>
+                </documentation>
+        </excercise>
+        <excercise>
+            <stamp id="1" date="20141118" startTime="16:45" endTime="17:15"/>
+            <stamp id="2" date="20141118" startTime="17:45" endTime="18:00"/>
+            <stamp id="3" date="20141118" startTime="20:00" endTime="22:00"/>
+            <stamp id="3" date="20141119" startTime="08:15" endTime="10:30"/>
+                <desc>Uppgift 1B</desc>
+                <documentation>
+                    <strategy>Förberedelse genom att läsa labb-pm. Eftersom jag oo för denna labb hade jag svårt att sätta på pränt hur jag skulle rita upp programmet visuellt på papper. Strategin för detta blev helt enkelt att samtidig som kodandet sker försöka visuellt rita programmet i huvudet...</strategy>
+                    <failure>Ett stort misstag som kunde undvikits var att jag valde att inte rita programmets logik. Jag jobbade på fel uppgift!</failure>
+                    <planningDeviation>Min plan var att skriva programmet med oop i javscript. Tycker att jag lyckades följa planden. Däremot kändes den långt ifrån optimal om man ska vara maximalt produktiv/effektiv.</planningDeviation>
+                </documentation>
+        </excercise>
+        <excercise>
+            <stamp id="1" date="20141118" startTime="11:00" endTime="11:15">
+                <notes>Påbörjar arbete med att kopiera över gammal kod från 1b att utgå ifrån.</notes>
+            </stamp>
+            <stamp id="1" date="20141118" startTime="12:00" endTime="20:00">
+                <notes>Fortsätter att jobba med struktur av mappar. Det här var en mindre produktiv dag. Att sortera tal var svårt när man inte fick använda sig av arrayer så som vanligt är. Mestadels av tiden har inneburit att få ihop logiken i 1c_run.js</notes>
+            </stamp>
+                <desc>Uppgift 1C</desc>
+                <documentation>
+                    <strategy>Program "NastStorst" möjliggör att utgå föregående labb (1b) eftersom programmets påminer om varandra. Startegin blir att "modda" befintlig kod och utöka koden.</strategy>
+                    <failure>Återigen så har jag kört fast och gått runt som i ett ekorrhjul. Som vanligt brukar en paus till koden och nya krafter göra att man löser problemt. Logiken som krävdes för denna uppgiften krävde dock mer tankemöda än över en kopp kaffe. Slutligen kom lösningen efter att jag ritat och skissat koden med figurer på papper.</failure>
+                    <planningDeviation>Egentligen inga avvikelser. Dock är tidsåtgången stor när man är ny på javascript. Jag gjorde som jag tänkt.</planningDeviation>
+                </documentation>
+        </excercise>
+        <reflection>Här skriver jag en reflektion för 1an:</reflection>
+    </collection>
+<!--Excercise 2 - START -->
+    <collection>
+        <excercise>
+            <stamp id="1" date="20141119" startTime="08:15" endTime="09:30">
+                <notes>Påbärjar Laboration 2. Då jag valt att logga i xml-format ordnar jag med en lämpliga css-filer för dessa. Xml är också validerat och verkar fungera.</notes>
+            </stamp>
+            <stamp id="2" date="20141119" startTime="09:30" endTime="11:00">
+                <notes>Jobbat med strukturering av xml-schema och css mm.</notes>
+            </stamp>
+                <desc>Uppgift 2A</desc>
+                <documentation>
+                    <question>Fråga: Ge exempel på några alternativa strategier som du kan använda i din planering av programmeringsuppgifterna</question>
+                    <answer>Svar: Efter genomförandet av laborationer 1a 1b och 1c har min  syn på planering rubbats ganska mycket. Lite luddigt har jag skissat programmen jag vill genomföra antingen direkt i mitt huvude alternativt på papper. Dock känner jag att det kan vara börja till ett mer strukturerat arbete. En första strategi skulle kunna vara att ta fram ett antal faser som man ska loopa sig igenom för att överhuvud taget få gå vidare till steg #2.</answer>
+                </documentation>
+                <desc>Uppgift 2B</desc>
+                <documentation>
+                    <question>Fråga: Två av anledningarna till att din planering avviker från verkligheten är dels felen du gör dels alla andra saker som inträffar. Hur kan du ta hänsyn till eller minska konsekvenserna av dessa? Ge konkreta exempel på dina erfarenheter.</question>
+                    <answer>Svar: </answer>
+                </documentation>
+                <desc>Uppgift 2C</desc>
+                <documentation>
+                    <question>Fråga/övning: Implementera två "förbättringsåtgärder" i ditt planeringsarbete.</question>
+                    <answer>Svar: Hej jag heter Ab</answer>
+                </documentation>
+        </excercise>
+    </collection>
+<script xmlns="http://www.w3.org/1999/xhtml" src="js/main.js"></script>
 </excercises>
+
 
 
 

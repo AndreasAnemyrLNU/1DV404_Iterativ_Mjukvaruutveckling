@@ -1,11 +1,29 @@
+answer{
+    display: block;
+    padding: 5%;
+}
+
+collection{
+    border: .2em solid black;
+    border-radius: 2em;
+    display: block;
+    margin: 1em;
+    padding: 2em;
+}
 desc{
     border-left: .1em solid black;
+    border-radius: .2em;
     border-top: .1em solid black;
     display: block;
     font-size: 1.5em;
     font-weight: 700;
+    margin-top: 1em;
     padding: 1em;
-    
+    text-shadow: white 0 0  1em;
+}
+documentation{
+    display: block;
+    padding: 5%;
 }
 excercise{
     border: 0.0625em solid black;
@@ -19,14 +37,72 @@ excercises{
     background-color: orange;
     width: 30em;
 }
+notes{
+    display: block;
+    font-style: italic;
+    padding: 1em;
+}
+reflection{
+    background-color: black;
+    border: 0.0625em solid black;
+    border-radius: 2em;
+    box-shadow: white 0 0 10em;
+    color: yellow;
+    display: block;
+    margin: 1em;
+    padding: 2em;
+}
 
-stamp::after {
+
+
+
+
+
+
+/*Dynamic inserts for id-attribs by pseudo elements*/
+failure::before {
     border: 0.0625em solid green;
-    border-top: none;
+    border-bottom: none;
+    display: block;
+    font-weight: 700;
+    padding: 2%;
+    content: "Misstag";
+}
+
+planningDeviation::before {
+    border: 0.0625em solid green;
+    border-bottom: none;
+    display: block;
+    font-weight: 700;
+    padding: 2%;
+    content: "Avvikelser planering";
+}
+
+question{
+    display: block;
+    font-style: italic;
+    padding: 5%;
+}
+
+stamp::before {
+    border: 0.0625em solid green;
+    border-bottom: none;
     display: block;
     font-weight: 700;
     content: attr(id)": "attr(date)" "attr(startTime)" "attr(endTime);
 }
+
+strategy::before {
+    border: 0.0625em solid green;
+    border-bottom: none;
+    display: block;
+    font-weight: 700;
+    padding: 2%;
+    content: "Strategi";
+}
+
+
+
 
 
 
