@@ -1,0 +1,34 @@
+desc{
+    border-left: .1em solid black;
+    border-top: .1em solid black;
+    display: block;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 1em;
+    
+}
+excercise{
+    border: 0.0625em solid black;
+    border-radius: 2em;
+    box-shadow: white 0 0 10em;
+    display: block;
+    margin: 1em;
+    padding: 2em;
+}
+excercises{
+    background-color: orange;
+    width: 30em;
+}
+
+stamp::after {
+    border: 0.0625em solid green;
+    border-top: none;
+    display: block;
+    font-weight: 700;
+    content: attr(id)": "attr(date)" "attr(startTime)" "attr(endTime);
+}
+
+
+
+
+

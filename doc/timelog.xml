@@ -1,30 +1,17 @@
-<!--
-Tidslog Laboration 1 1DV404 - Planering och förbättring
-
-Programmeringsspråk: Javascript
-
-Förberedande för labb  
--->
-
-<excercise>
-    <stamp id="1" date="20141118" startTime="08:15" endTime="08:45"/>
-        <desc>Laboration Förberedande</desc>
-        <documentation>
-            <strategy>
-            Laboration 1 DV404 - Planering och förbättring.
-            För att erhålla struktur och ordning så har jag valt att genomföra 
-            planering med hjälp av dokumentet timelog.xml. 
-            För att en laboration ska vara komplett måste samtlig innehåll inneha ett värde. 
-            Tanken med att använda xml i boten för data är att jag på ett "enkelt" och strukturereat sätt 
-            ska kunna överföra data till exempelvis en html5 application eller kanske rentav ett layoutprogram 
-            likt Adobe InDesign.
-            </strategy>
-            <failure></failure>
-            <planningDeviation></planningDeviation>
-        </documentation>    
-</excercise>
-
-<collection>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<excercises>    
+    <excercise>
+        <stamp id="1" date="20141118" startTime="08:15" endTime="08:45"/>
+            <desc>Laboration Förberedande</desc>
+            <documentation>
+                <strategy>
+                Laboration 1 DV404 - Planering och förbättring. För att erhålla struktur och ordning så har jag valt att genomföra planering med hjälp av dokumentet timelog.xml. För att en laboration ska vara komplett måste samtlig innehåll inneha ett värde. Tanken med att använda xml i boten för data är att jag på ett "enkelt" och strukturereat sätt ska kunna överföra data till exempelvis en html5 application eller kanske rentav ett layoutprogram likt Adobe InDesign.
+                </strategy>
+                <failure></failure>
+                <planningDeviation></planningDeviation>
+            </documentation>    
+    </excercise>
     <excercise>
         <stamp id="1" date="20141118" startTime="08:45" endTime="09:00"/>
         <stamp id="2" date="20141118" startTime="09:15" endTime="11:30"/>
@@ -63,25 +50,31 @@ Förberedande för labb
                 <strategy>Program "NastStorst" möjliggör att utgå föregående labb (1b) eftersom programmets påminer om varandra. Startegin blir att "modda" befintlig kod och utöka koden.</strategy>
                 <failure>Återigen så har jag kört fast och gått runt som i ett ekorrhjul. Som vanligt brukar en paus till koden och nya krafter göra att man löser problemt. Logiken som krävdes för denna uppgiften krävde dock mer tankemöda än över en kopp kaffe. Slutligen kom lösningen efter att jag ritat och skissat koden med figurer på papper.</failure>
                 <planningDeviation>Egentligen inga avvikelser. Dock är tidsåtgången stor när man är ny på javascript. Jag gjorde som jag tänkt.</planningDeviation>
-                <reflection></reflection>
+
             </documentation>
     </excercise>
-</collection>
-
-<collection>
+    <reflection>Här skriver jag en reflektion för 1an:</reflection>
     <excercise>
-        <stamp id="1" date="20141119" startTime="22:15" endTime="">
-            <notes>Påbärjar Laboration 2</notes>
+        <stamp id="1" date="20141119" startTime="08:15" endTime="09:30">
+            <notes>Påbärjar Laboration 2. Då jag valt att logga i xml-format ordnar jag med en lämpliga css-filer för dessa. Xml är också validerat och verkar fungera.</notes>
+        </stamp>
+        <stamp id="2" date="20141119" startTime="09:30" endTime="">
+            <notes></notes>
         </stamp>
             <desc>Uppgift 2A</desc>
             <documentation>
-                <strategy>Program "NastStorst" möjliggör att utgå föregående labb (1b) eftersom programmets påminer om varandra. Startegin blir att "modda" befintlig kod och utöka koden.</strategy>
-                <failure>Återigen så har jag kört fast och gått runt som i ett ekorrhjul. Som vanligt brukar en paus till koden och nya krafter göra att man löser problemt. Logiken som krävdes för denna uppgiften krävde dock mer tankemöda än över en kopp kaffe. Slutligen kom lösningen efter att jag ritat och skissat koden med figurer på papper.</failure>
-                <planningDeviation>Egentligen inga avvikelser. Dock är tidsåtgången stor när man är ny på javascript. Jag gjorde som jag tänkt.</planningDeviation>
-                <reflection></reflection>
+            
+            </documentation>
+            <desc>Uppgift 2B</desc>
+            <documentation>
+            
+            </documentation>
+            <desc>Uppgift 2C</desc>
+            <documentation>
+            
             </documentation>
     </excercise>
-</collection>
+</excercises>
 
 
 
