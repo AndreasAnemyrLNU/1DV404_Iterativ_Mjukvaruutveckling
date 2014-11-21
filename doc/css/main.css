@@ -10,6 +10,19 @@ collection{
     margin: 1em;
     padding: 2em;
 }
+data{
+    display: block;
+    margin-left: 6em;
+}
+dataH{
+    display: block;
+    margin-left: 6em;
+    padding: 5%;
+}
+dataP{
+    display: block;
+    margin-left: 20em;
+}
 desc{
     border-left: .1em solid black;
     border-radius: .2em;
@@ -28,19 +41,47 @@ documentation{
 excercise{
     border: 0.0625em solid black;
     border-radius: 2em;
-    box-shadow: white 0 0 10em;
+    box-shadow: white 0 0 100em;
     display: block;
     margin: 1em;
     padding: 2em;
 }
 excercises{
     background-color: orange;
-    width: 30em;
+    margin: auto;
+    width: 60em;
+}
+
+header{
+    display: block;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 1em;
+    text-align: center;
 }
 notes{
     display: block;
     font-style: italic;
     padding: 1em;
+}
+
+failureList, planningList, planningDeviationList{
+    background-color: white;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: white 0 0 10em;
+    display: block;
+    opacity: .6;
+    padding: 5%;
+}
+failureList, planningList, planningDeviationList:hover{
+    opacity: .1;
+}
+
+planningPoint, failurePoint, planningDeviationPoint{
+    display: block;
+    margin-left: 2em;
+
 }
 reflection{
     background-color: black;
@@ -51,6 +92,15 @@ reflection{
     display: block;
     margin: 1em;
     padding: 2em;
+}
+answer, failure, strategy, planning, planningDeviation, question{
+    display: block;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: .0625em;
+    line-height: 150%;
+    margin-bottom: 1em;
+    padding: 1em;
 }
 
 
@@ -65,8 +115,19 @@ failure::before {
     border-bottom: none;
     display: block;
     font-weight: 700;
+    margin-bottom: 1em;
     padding: 2%;
     content: "Misstag";
+}
+
+planning::before {
+    border: 0.0625em solid green;
+    border-bottom: none;
+    display: block;
+    font-weight: 700;
+    margin-bottom: .1em;
+    padding: 2%;
+    content: "Planering";
 }
 
 planningDeviation::before {
@@ -74,6 +135,7 @@ planningDeviation::before {
     border-bottom: none;
     display: block;
     font-weight: 700;
+    margin-bottom: 1em;
     padding: 2%;
     content: "Avvikelser planering";
 }
@@ -97,11 +159,10 @@ strategy::before {
     border-bottom: none;
     display: block;
     font-weight: 700;
+    margin-bottom: 1em;
     padding: 2%;
     content: "Strategi";
 }
-
-
 
 
 

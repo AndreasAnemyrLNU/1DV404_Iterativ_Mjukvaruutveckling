@@ -1,7 +1,6 @@
 "use strict";
 window.onload = function(){
 
-
 var i = 0;
 var j = 0;
 var node = document.querySelectorAll("reflection");
@@ -22,7 +21,8 @@ var countStrLength = 0;
 
         }
     node[i].childNodes[0].nodeValue += " Reflektionen innehåller "+(counter - 1)+" ord";
-
+    counter = 0;
+    j = 0;
     
     }
     
@@ -45,17 +45,9 @@ countStrLength = 0;
             counter += countStr[j] === " " ? 1 : 0;
 
         }
-    node[i].childNodes[0].nodeValue += " Svaret innehåller "+(counter - 1)+" ord";
-
+    node[i].childNodes[0].nodeValue += " Svaret innehåller ca "+(counter)+" ord";
+    counter = 0;
+    j = 0;
     
     }
-
-
-    
-    
-    
-    
-    
-    
-    
 };
