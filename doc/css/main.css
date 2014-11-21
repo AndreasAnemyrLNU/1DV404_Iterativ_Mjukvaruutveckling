@@ -16,7 +16,8 @@ data{
 }
 dataH{
     display: block;
-    margin-left: 6em;
+    font-weight: 700;
+    margin-left: 0em;
     padding: 5%;
 }
 dataP{
@@ -71,11 +72,8 @@ failureList, planningList, planningDeviationList{
     border-bottom-right-radius: 20%;
     box-shadow: white 0 0 10em;
     display: block;
-    opacity: .6;
+    opacity: .9;
     padding: 5%;
-}
-failureList, planningList, planningDeviationList:hover{
-    opacity: .1;
 }
 
 planningPoint, failurePoint, planningDeviationPoint{
@@ -139,7 +137,16 @@ planningDeviation::before {
     padding: 2%;
     content: "Avvikelser planering";
 }
-
+report{
+    border-bottom-left-radius: 5em;
+    border-top-right-radius: 5em;
+    color: yellow;
+    background-color: black;
+    display: block;
+    height: 2em;
+    padding-top: .7em;
+    text-align: center;
+}
 question{
     display: block;
     font-style: italic;

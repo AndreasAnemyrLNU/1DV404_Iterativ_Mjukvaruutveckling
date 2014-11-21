@@ -105,13 +105,15 @@
             <stamp id="3" date="20141119" startTime="19:30" endTime="19:45">
                 <notes>Diverse småfix....</notes>
             </stamp>
-            <stamp id="4" date="20141119" startTime="22:00" endTime="">
+            <stamp id="4" date="20141119" startTime="22:00" endTime="23:00">
                 <notes>Arbetar med punktlistor i "formulär"....</notes>
+            </stamp>
+            <stamp id="5" date="20141121" startTime="12:00" endTime="12:15">
+                <notes>Justerar mina formulär med resultattid och annat småfix...</notes>
             </stamp>
                 <desc>Uppgift 3</desc>
                 <documentation>
-                    <strategy>
-                    </strategy>
+                    <strategy></strategy>
                     <planning>
                         <planningList>
                             <planningPoint>Delmål</planningPoint>
@@ -137,9 +139,106 @@
                     </planningDeviation>
             </documentation>
         </excercise>
+        <excercise>
+                <desc>Uppgift 3A</desc>
+                    <report>Resultat totat tid: [+01:15]</report>
+                <documentation>
+                    <strategy>Läser labb-pm noga. Eftersom programmet inte verkar så omfattande väljer jag att endast dela in uppgiften i tre delmål. Delmålen läggs därefter in i formuläret "planninglist" med respektive uppskattad tidsåtgån. Då man därefter lätt "mäta" resultate av det man kodat.</strategy>
+                    <planning>
+                        <planningList>
+                            <planningPoint>Delmål</planningPoint>
+                                
+                                <dataH>[X] Planering av uppgift</dataH>
+                                    <stamp id="1" date="20141120" startTime="09:00" endTime="09:30">
+                                        <notes>Börjar med planering och får ännu en gång modifiera formulär...</notes>
+                                    </stamp>
+                                    <dataP>[+00:30] Kalkylens tid</dataP>
+                                    <dataP>[+00:30] Faktiskt tid</dataP>
+                                    <dataP>[+00:00] Resultat tid</dataP>
+                                
+                                <dataH>[X] Återvinn html/css/js från tidigare labbar</dataH>
+                                    <stamp id="1" date="20141120" startTime="09:30" endTime="09:45">
+                                        <notes>Hämtar över befintliga filer från tidigare projekt. Justerat befintliga hårdkodade data att stämma överens med aktuell uppgift.</notes>
+                                    </stamp>
+                                    <dataP>[+00:30] Kalkylens tid</dataP>
+                                    <dataP>[+00:15] Faktiskt tid</dataP>
+                                    <dataP>[+00:15] Resultat tid</dataP>
+                                
+                                <dataH>[X] Skapa funktionskonstruktor Palindrom som tar en "sträng" som argument. Implementera metoderna "revString" och "checkLwrCase" och medlemmarna inputStr och revInputStr.</dataH>
+                                    <stamp id="1" date="20141120" startTime="09:45" endTime="10:45">
+                                        <notes>Konstruktorn fungerar som den ska har flytit på riktigt bra. Däremot är jag osäker på om jag ska hindra att något annat är gemener tillåts att komma in och beräknas och kasta fel, alternativ att man gör om inmatad strän till lowercase per automatik. Jag väljer dock att kasta fel om något annat än småbokstäver är på ingån och kommer att sköta det med felhantering i den sista delen av planninglist.</notes>
+                                    </stamp>
+                                    <dataP>[+01:30] Kalkylens tid</dataP>
+                                    <dataP>[+01:00] Faktiskt tid</dataP>
+                                    <dataP>[+00:30] Resultat tid</dataP>
+                                
+                                <dataH>[X] Implementera metod som hanterar inmatning av fel typ</dataH>
+                                    <stamp id="1" date="20141120" startTime="10:45" endTime="11:15">
+                                        <notes>Nu har jag  fått de olika delaran att fungera fritt och var för sig. Värden verkar returna som de ska och att reversa strängen verkar inte vara problem heller. Nu ska det bara vara att sy ihop applikation i filen 3a.js</notes>
+                                    </stamp>
+                                    <stamp id="1" date="20141120" startTime="11:15" endTime="11:45">
+                                        <notes>Nu ska applikationen vara testa och klar. En fråga man dock kan ställa sig är om man ska godkänna siffror i sin palindrom. Ett alternativ skulle kunna vara att implementera ett test även för detta på prototypen i konstruktorfunktion Palindrom.</notes>
+                                    </stamp>
+                                    <dataP>[+01:30] Kalkylens tid</dataP>
+                                    <dataP>[+01:00] Faktiskt tid</dataP>
+                                    <dataP>[+00:30] Resultat tid</dataP>
+                                    
+                                <dataH>[x] Slutrapport och sammanställning</dataH>
+                                    <stamp id="1" date="20141120" startTime="11:45" endTime="12:00">
+                                        <notes>Räknar ihop tid för att lämna i fältet under rubriken</notes>
+                                    </stamp>
+                                    <dataP>[+00:15] Kalkylens tid</dataP>
+                                    <dataP>[+00:15] Faktiskt tid</dataP>
+                                    <dataP>[+00:00] Resultat tid</dataP>
+                                
+                        </planningList>
+                    </planning>
+                    <failure>
+                        <failureList>
+                            <failurePoint>Rubrik</failurePoint>  
+                                <data>Ett återkommande fel/misstag som jag gör i javascript är att glömma sätta parenteser i funktionsanrop. Det har hänt flera ggr de sista dagarna. Får fundera över hur jag ska kunna motverka att det händer. Kanske det kan vara intellisensen på C9 som bråkar med mig...?</data>
+                        </failureList>
+                    </failure>
+                    <planningDeviation>
+                        <planningDeviationList>
+                            <planningDeviationPoint>Rubrik</planningDeviationPoint>
+                                <data>Efter fullgjord uppgift insåg jag att inget formulär fanns för att kunna göra en slutrapport. Den fick jag lägga till som ett delmål fyra. Den måste rimligen alltid finnas eftersom det ligger dold tid i denna beroende på omfattningen på programmet/arbetet.</data>
+
+                        </planningDeviationList>
+                    </planningDeviation>
+            </documentation>
+        </excercise>
+        <excercise>
+            <desc>Uppgift 3B</desc>
+                <report>Resultat totat tid: [+00:00]</report>
+            <documentation>
+                <strategy>Läser återgien labb-pm noggrant. Eftersom konstruktor och klasser mm. är uppradade så beräknar jag att utföra uppgiften genom att implementera dessa. Eftersom jag redan har "facit" och grundstommen av vad som behövs för denna uppgift slipper jag att analysera detta för denna uppgiften. Jag kommer att lösa uppgiften genom att på papper ritan in hur konstruktor metoder mm. ska arbeta med varandra för att når resultat. Jag börjar alltså inte koda denna lösning innna jag har ett "visuellt" svar på hur uppgiften ska lösas på ett logiskt och strukturerat sätt. Efter att jag har skissat upp på ett papper kommer jag att sätta delmålen och tid fördessa som ska hjälpa mig att forcera genom denna uppgiften.</strategy>
+                <planning>
+                    <planningList>
+                        <planningPoint>Delmål</planningPoint>
+            
+                            <dataH>[X] Planering av uppgift</dataH>
+                            <stamp id="1" date="20141121" startTime="13:30" endTime="13:45">
+                                <notes>Sätter mig in i uppgiften ytterligare.... Skapat "planeringsformulär". Nu ska jag sätta mig en stund med penna och papper för att få logik i programmet innan jag börjar koda och snurrar till det allt för mycket.</notes>
+                            </stamp>
+                            <dataP>[+01:30] Kalkylens tid</dataP>
+                            <dataP>[+00:00] Faktiskt tid</dataP>
+                            <dataP>[+00:00] Resultat tid</dataP>
+                            
+                    </planningList>          
+                </planning>
+            </documentation>
+        </excercise>    
+            
     </collection>
 <script xmlns="http://www.w3.org/1999/xhtml" src="js/main.js"></script>
 </excercises>
+
+
+
+
+
+
 
 
 
