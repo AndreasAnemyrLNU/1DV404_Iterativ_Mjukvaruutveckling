@@ -12,7 +12,7 @@ collection{
 }
 data{
     display: block;
-    margin-left: 6em;
+    margin: 5em 6em;
 }
 dataH{
     display: block;

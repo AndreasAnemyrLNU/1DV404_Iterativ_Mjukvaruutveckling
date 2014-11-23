@@ -111,7 +111,7 @@
             <stamp id="5" date="20141121" startTime="12:00" endTime="12:15">
                 <notes>Justerar mina formulär med resultattid och annat småfix...</notes>
             </stamp>
-                <desc>Uppgift 3</desc>
+                <desc>Uppgift 3 - Förbättrad planering av programmering</desc>
                 <documentation>
                     <strategy></strategy>
                     <planning>
@@ -217,16 +217,68 @@
                     <planningList>
                         <planningPoint>Delmål</planningPoint>
             
-                            <dataH>[X] Planering av uppgift</dataH>
+                        <dataH>[X] Planering av uppgift</dataH>
                             <stamp id="1" date="20141121" startTime="13:30" endTime="13:45">
                                 <notes>Sätter mig in i uppgiften ytterligare.... Skapat "planeringsformulär". Nu ska jag sätta mig en stund med penna och papper för att få logik i programmet innan jag börjar koda och snurrar till det allt för mycket.</notes>
                             </stamp>
+                            <stamp id="2" date="20141121" startTime="14:15" endTime="15:30">
+                                <notes>html/css/js från tidigare projekt och annat kringfix för projektet.</notes>
+                            </stamp>
                             <dataP>[+01:30] Kalkylens tid</dataP>
+                            <dataP>[+01:00] Faktiskt tid</dataP>
+                            <dataP>[+00:30] Resultat tid</dataP>
+                        
+                        <dataH>[X] Impl klasser och metoder mm</dataH>
+                            <stamp id="1" date="20141121" startTime="14:00" endTime="15:00">
+                                <notes>Implementerar konstruktor metoder mm och länkar js med hmtl. Fixar med strukturering av filer förbättrar helhetsfuntionen av hur programmet ska fungera som färdig applikation.</notes>
+                            </stamp>
+                            <stamp id="2" date="20141121" startTime="15:00" endTime="15:45">
+                                <notes>Jobbat med konstruktorn och prototypen i javscript. multiply implementerad men inte testad ännu.....</notes>
+                            </stamp>
+                            <stamp id="3" date="20141122" startTime="11:15" endTime="13:20">
+                                <notes>Lägger en massa tid på att lära mig att använda klasser, metoder mm i javascript. Inser att min applikation inte återanvänder objektet av Fraction utan att det skapas nya "lika" objekt i mina funktioner add och multiply. Får läsa på lite om detta och se om jag kan lösa det på ett bättre sätt!?</notes>
+                            </stamp>
+                            <stamp id="4" date="20141122" startTime="15:15" endTime="15:30">
+                                <notes>Lösningen på gemensamma "fractions" löste jag under lunchen. Lösningen gjordes genom att skapa en "run"-funktion som fick innehlla samtliga applikations funktionen (ej konstruktorn) och därtill deklarerade jag fractions[3]. fractions[0] = första bråktal. fractions[1] = andra bråktalet. fractions[2] = genererat "nytt" bråktal oberoende av vilken metod som används i "klassen" Fraction. Givetvis heter det inte klass i Javscript men jag uttrycker mig så...</notes>    
+                            </stamp>
+                            <stamp id="1" date="20141121" startTime="14:00" endTime="15:00">
+                                <notes>Satt samman  det mesta. Återstår "IsNegative" och eventuellt Euklides om jag hinner...</notes>
+                            </stamp>
+                            <dataP>[+02:00] Kalkylens tid</dataP>
+                            <dataP>[+00:00] Faktiskt tid</dataP>
+                            <dataP>[+00:00] Resultat tid</dataP>
+            
+                        <dataH>[x] Grafiskt Gränssnitt html/css</dataH>
+                            <stamp id="1" date="20141122" startTime="10:00" endTime="11:30">
+                                <notes>För att en användare ska kunna jobba mot den klass innehållandes metoder måste jag skapa ett fungerande gränssnitt med html/css och javascript. Känner att det är en nyttig utmaning!</notes>
+                            </stamp>
+                            <dataP>[+02:00] Kalkylens tid</dataP>
+                            <dataP>[+01:30] Faktiskt tid</dataP>
+                            <dataP>[+00:30] Resultat tid</dataP>
+                            
+                        <dataH>[x] Överkurs Euklides om tid finns</dataH>
+                            <dataP>[+03:00] Kalkylens tid</dataP>
                             <dataP>[+00:00] Faktiskt tid</dataP>
                             <dataP>[+00:00] Resultat tid</dataP>
                             
+                            
                     </planningList>          
                 </planning>
+                    <failure>
+                        <failureList>
+                            <failurePoint>Misstag</failurePoint>  
+                                <data>Ett återkommande misstag jag upptäck att jag gör att när jag ska göra ett funktionsuttryck på prototypen så gör jag det som en funktionsdeklaration. Något jag måste aktivt tänka på då det hindrar mig när jag felsöker...</data>
+                                <data>Att tänka på i framtiden är att vara noga med att jobba strukturerat när det kommer till kodning av algoritmiskt karaktär. Snubblade väldigt ofta på täljaren och nämnare då jag kodade lösningarna direkt utan att pränta ner det på papper först. Logik Logik Logik. Även enkel logik blir knepig när kodbasen växer...</data>
+                        </failureList>
+                    </failure>
+                    <planningDeviation>
+                        <planningDeviationList>
+                            <planningDeviationPoint>Avvikelser</planningDeviationPoint>
+                                <data>När jag började skissa så hade jag inte riktigt svaren direkt på hu jag skulle implementera metoder mm. För att kanske kunna få en något bättre "helhetsbild" av programmet väljer jag därför att hämta diverse filer som jag kan återvinna från tidigare uppgifter.</data>
+                                <data>Börjar bli svårt att hitta snabbt i mina xml kommentare. Små avvikelser görs nu hela tiden och tappar tråden. Känns lite som att jag drar i flera trådar samtidigt. Men arbete går trots allt framåt!</data>
+                                <data>Tidsplanering kommer att spricka för att få till ett grafiskt gränssnitt som jobbar mot mina klasser. Inser att jag inte är tillräckligt duktig på detta ännu då jag känner att jag har behov av följa ett manuskript då jag aldrig har gjort det innan.</data>
+                        </planningDeviationList>
+                    </planningDeviation>
             </documentation>
         </excercise>    
             
