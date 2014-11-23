@@ -18,8 +18,8 @@ function run(){
         var submitter5 = document.querySelector("#sub");
         submitter5.addEventListener("click", sub, false);
         
-        //readValue1();
-        //readValue2();
+        readValue1();
+        readValue2();
     
         function readValue1(){
         
