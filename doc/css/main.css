@@ -52,7 +52,10 @@ excercises{
     margin: auto;
     width: 60em;
 }
-
+h1{
+    display: block;
+    font-size: 2em;
+}
 header{
     display: block;
     font-size: 2em;
@@ -88,6 +91,8 @@ reflection{
     box-shadow: white 0 0 10em;
     color: yellow;
     display: block;
+    letter-spacing: .0625em;
+    line-height: 150%;
     margin: 1em;
     padding: 2em;
 }
