@@ -2,10 +2,7 @@ answer{
     display: block;
     padding: 5%;
 }
-
 collection{
-    border: .2em solid black;
-    border-radius: 2em;
     display: block;
     margin: 1em;
     padding: 2em;
@@ -40,15 +37,13 @@ documentation{
     padding: 5%;
 }
 excercise{
-    border: 0.0625em solid black;
     border-radius: 2em;
-    box-shadow: white 0 0 100em;
     display: block;
     margin: 1em;
     padding: 2em;
 }
+
 excercises{
-    background-color: orange;
     margin: auto;
     width: 60em;
 }
@@ -68,6 +63,12 @@ notes{
     font-style: italic;
     padding: 1em;
 }
+notesFirst{
+    display: block;
+    font-size: 2em;
+    padding: 1em;
+    text-align: center;
+}
 
 failureList, planningList, planningDeviationList{
     background-color: white;
@@ -85,11 +86,7 @@ planningPoint, failurePoint, planningDeviationPoint{
 
 }
 reflection{
-    background-color: black;
-    border: 0.0625em solid black;
     border-radius: 2em;
-    box-shadow: white 0 0 10em;
-    color: yellow;
     display: block;
     letter-spacing: .0625em;
     line-height: 150%;
@@ -145,8 +142,6 @@ planningDeviation::before {
 report{
     border-bottom-left-radius: 5em;
     border-top-right-radius: 5em;
-    color: yellow;
-    background-color: black;
     display: block;
     height: 2em;
     padding-top: .7em;
@@ -165,6 +160,14 @@ stamp::before {
     font-weight: 700;
     content: attr(id)": "attr(date)" "attr(startTime)"-"attr(endTime);
 }
+stampbr::before {
+    border: 0.0625em solid green;
+    border-bottom: none;
+    display: block;
+    font-weight: 700;
+    content: attr(id)": "attr(date)" "attr(startTime)"-"attr(endTime);
+    page-break-before: always;
+}
 
 strategy::before {
     border: 0.0625em solid green;
@@ -175,6 +178,10 @@ strategy::before {
     padding: 2%;
     content: "Strategi";
 }
+#pbr1, #pbr2, #pbr3, #pbr4, #pbr5, #pbr6{
+        page-break-before: always;
+}
+
 
 
 
