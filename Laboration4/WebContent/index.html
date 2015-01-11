@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<title>Anemyr.se</title>
+</head>
+<body>
+
+<h1>Beta 0.1 Anvädningsfall punkt 1 - Registrerar klubbadministratör</h1>
+
+<a id="addMail" class="link">Bjud in klubbadmin! (registrera e-post)</a>
+<a id="addTeamMember" class="link">Lägg till lagmedlem (gymnast)</a>
+<a id="inactivateTeamMember" class="link">Inaktiver lagmedlem (gymnast)</a>
+<a id="updateTeamMember" class="link">Uppdatera lagmedlems data (gymnast)</a>
+
+<form>
+	<fieldset>
+	<legend>Personal information:</legend>
+	First name:<br>
+	<input id="fname" type="text" name="firstname" value="">
+	<br>
+	Last name:<br>
+	<input id="lname" type="text" name="lastname" value="">
+	<br><br>
+	<input type="submit" value="Submit">
+	</fieldset>
+</form>
+
+
+<!-- div to render clubs from database -->
+<div id="clubs">Radera Lag!</div>
+
+
+
+<script src="src/Database.js">  </script>
+<script src="src/TeamMember.js"></script>
+<script src="src/SportClub.js"></script>
+<script src="src/Message.js"></script>
+<script src="src/Tools.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>
